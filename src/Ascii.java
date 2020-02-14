@@ -1,5 +1,6 @@
+
 public class Ascii {
-    public static void main(String[] args) {
+    public static <pointTester> void main(String[] args) {
         System.out.println(" /\\_/\\      -----");
         System.out.println("( ' ' )   / Welcome \\");
         System.out.println("(  -  ) <   to mastering |");
@@ -54,7 +55,8 @@ public class Ascii {
 
                 "--------------------------------------------------------------------------\n" );
 
-
+       PointTester pointObject = new PointTester();
+        System.out.println(" Distance expected " + pointObject.distance());
 
     }
 }
